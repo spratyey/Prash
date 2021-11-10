@@ -1,8 +1,6 @@
 # prash
-### Pratyay Suvarnapathaki
-### 2020111016
 
-`prash` stands for 'Pratyay's Shell' and is a bash-like shell written in C.
+`prash` stands for 'Pratyay's Shell' and is a bash-like UNIX shell written in C.
 
 ## How To Use
 **Compilation + Execution: Run the following command in the shell directory**
