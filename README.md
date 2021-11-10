@@ -31,10 +31,10 @@ make
 8. **bg**
 9. **sig**
 10. **jobs**
-11. `Ctrl + D` logs the user out of prash.
-12. `Ctrl + C` interrupts current foreground job
-13. `Ctrl + Z` pushed foreground job to background and changes state to 'stopped'.
-14. Piping and redirection support.
+11. **`Ctrl + D`** logs the user out of prash.
+12. **`Ctrl + C`** interrupts current foreground job
+13. **`Ctrl + Z`** pushed foreground job to background and changes state to 'stopped'.
+14. **Piping** and **redirection** support.
 ---
 
 ## Assumptions
@@ -53,6 +53,6 @@ make
 6. **`pwdecho.c, .h`** : To implement the `pwd` and `echo` commands
 7. **`shell.c, .h`** : To print the prompt, and get the user's input. Also handles the `repeat` command.
 8. **`globalheader.h`** : Has all the necessary system header file inclusion statements, and also declares some global variables using the `extern` keyword, also has the `MAXPATH,MAXCMD` macros.
-9. **pipes.h** : Handles redirection and piping, acts as an intermediate layer between the shell and command handler.
+9. **`pipes.h`** : Handles redirection and piping, acts as an intermediate layer between the shell and command handler.
 
 ---
